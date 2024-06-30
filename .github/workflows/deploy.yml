@@ -7,9 +7,8 @@ on:
       - master # 这里只配置了master分支，所以只有推送master分支才会触发以下任务
 
 jobs:
-  pages:
+  build-and-deploy:
     runs-on: ubuntu-latest
-    permissions:
     steps:
       - uses: actions/checkout@v4
       - name: Use Node.js 14.16.0
