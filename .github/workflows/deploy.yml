@@ -1,4 +1,4 @@
-// workflows/deploy.yml
+## workflows/deploy.yml
 name: Deploy Pages
 
 on:
