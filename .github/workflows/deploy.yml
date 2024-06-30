@@ -7,7 +7,7 @@ on:
       - master # 这里只配置了master分支，所以只有推送master分支才会触发以下任务
 
 jobs:
-  build-and-deploy:
+  pages:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
