@@ -109,4 +109,4 @@ npm run lint -- --fix
 
 ## 结尾
 
-fork自 [vue-admin-template](https://github.com/LANIF-UI/vue-boot-template)
+fork自 [vue-boot-template](https://github.com/LANIF-UI/vue-boot-template)
