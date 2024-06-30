@@ -8,11 +8,6 @@
 
 基于VUE生态系统的最成熟的技术体系，搭建的一套开箱即用的后台管理系统，框架里包含了一些独有的定制组件，以及许多经过大量实践口碑良好的第三方组件，它不仅仅是一个简单的仪表盘展示界面，更是保证您下一个web项目所必需的所有工具，我们希望使用它的人可以快速、稳定的开发出健壮、美观、易用的web程序。
 
-[GitHub主页](https://github.com/LANIF-UI/vue-boot-template) |
-[码云主页](https://gitee.com/wiqi/vue-boot-template)
-
-![](https://ucarecdn.com/4beb558f-6c6d-42e4-ab22-c790c05a1cd4/_20200721093520.png)
-
 ## 工程结构
 ```
 .
@@ -61,18 +56,20 @@
 
 ```bash
 
+node版本建议14
 # 安装依赖
 # 国内用户建议改成国内镜像
-npm config set sass-binary-site http://npm.taobao.org/mirrors/node-sass
-npm config set registry https://registry.npm.taobao.org
+npm config set registry https://registry.npmmirror.com
+npm config set sass_binary_site https://cdn.npmmirror.com/binaries/node-sass
+
 npm install
 
 # 启动服务
 npm start
 
 # yarn 安装
-yarn config set registry https://registry.npm.taobao.org -g
-yarn config set sass_binary_site http://cdn.npm.taobao.org/dist/node-sass -g
+yarn config set registry https://registry.npmmirror.com -g
+yarn config set sass_binary_site https://npmmirror.com/mirrors/node-sass
 yarn
 
 # 启动服务
@@ -112,8 +109,4 @@ npm run lint -- --fix
 
 ## 结尾
 
-欢迎大家提问题，感谢大家的PR，如果觉得不错，还请帮忙加个:star:哦
-
-企鹅群 820881369 :penguin:
-
-fork自 [vue-admin-template](https://github.com/PanJiaChen/vue-admin-template)
+fork自 [vue-admin-template](https://github.com/LANIF-UI/vue-boot-template)

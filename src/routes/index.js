@@ -26,6 +26,7 @@ import Charts from '@/routes/widget/charts'
 import Permission from '@/routes/permission'
 import Crud from '@/routes/crud'
 import Toolbar from '@/routes/ui/toolbar'
+import Test from '@/routes/widget/test'
 /* <import></import> */
 
 /**
@@ -72,7 +73,7 @@ export const constantRoutes = [
     component: Layout,
     redirect: '/widget/form',
     meta: { title: '组件', icon: 'comp', roles: ['admin'] },
-    children: [Form, SearchBar, Table, Charts]
+    children: [Form, SearchBar, Table, Charts, Test]
   },
   {
     path: '/page',
